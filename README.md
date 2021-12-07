@@ -7,7 +7,9 @@ Nondecomposable Functions using Linear Programs](https://papers.nips.cc/paper/20
 * Pytorch 1.5+
 
 ## AUC optimization
-to be added soon
+For the four datasets (Cat&Dog, CIFAR10, CIFAR100, STL10) used in AUC optimization, we utilize the data and loaders provided by [Stochastic AUC Maximization with Deep Neural Networks](https://drive.google.com/drive/folders/1nPM6fmvN5fTsSaWsOcGFbhMVW7Fxso-Y). First download the four datasets from this link.
+
+Then, use *run_auc_binary.sh* to run our algorithm for binary AUC optimization.
 
 ## Reference
 If you find our work useful, please consider citing our paper.
